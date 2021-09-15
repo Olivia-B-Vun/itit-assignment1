@@ -1,10 +1,61 @@
-body {
+.topnav {
+    position: relative;
+    background-color: #343434;
+    overflow: hidden;
+    height: 260px;
+}
+
+.topnav-logo {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    ;
+  }
+  
+.topnav-home {
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 150px; 
+}
+.topnav-about {
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 340px; 
+}
+.topnav-it {
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 590px; 
+}
+.topnav-project {
+    float: right;
+    position: absolute;
+    top: 100px;
+    left: 1450px; 
+}
+.topnav-profile {
+  float: right;
+  position: absolute;
+  top: 100px;
+  left: 1200px; 
+}
+.topnav-job {
+    float: right;
+    position: absolute;
+    top: 100px;
+    left: 1000px; 
+}
+    body {
     font-size: 20px;
-    color: #a3738c; 
-    background-color: #575757;
+    color: #eaeaea; 
+    background-color: #343434;
 }
 h1 {
-    text-align: center;
     font-size: 60px;
     color: #d3a5af;
 } 
