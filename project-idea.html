@@ -2,32 +2,32 @@
 <html>
     <head>
         <title> Project Idea</title>
-        <link href="css/style.css" rel="stylesheet">
+        <link href = "css/style.css" rel = "stylesheet">
     </head>
     <header>
         <!--For future me - I know you hate me for making all these classes but, trust me; it's so much prettier, everything
         is controlled on one page, so you don't have to edit this 100 times when you inevitably change your mind -->
-        <div class ="topnav">
+        <div class = "topnav">
             <div class = "topnav-home">
-                <a href="index.html">Home</a>
+                <a href = "index.html">Home</a>
             </div>
             <div class = "topnav-about">
-                <a href="about-me.html">The Olivia Files</a>
+                <a href = "about-me.html">The Olivia Files</a>
             </div>
             <div class = "topnav-it">
-                <a href="interest-it.html">Interest in IT</a>
+                <a href = "interest-it.html">Interest in IT</a>
             </div>
             <div class = "topnav-logo">
                 <img src = "images/nakeeninja-token.png" alt = "logo" />
             </div>
             <div class = "topnav-job">
-                <a href="ideal-job.html">Ideal Job</a>
+                <a href = "ideal-job.html">Ideal Job</a>
             </div>
             <div class = "topnav-profile">
-                <a href="personal-profile.html">Personal Profile</a>
+                <a href = "personal-profile.html">Personal Profile</a>
             </div>
             <div class = "topnav-project">
-                <a href="project-idea.html">Project Idea</a>
+                <a href = "project-idea.html">Project Idea</a>
             </div>
         </div>
     </header>
@@ -35,8 +35,10 @@
         <h1>Potential Project Idea</h1>
         <h2>The Problem</h2>
         <h6>Hint: It's Me!</h6>
-        <p>If you know me (which I will assume you don’t) I really like organisation, and everything fits into a neat little box. 
-            To facilitate this, I use a range of online and offline tools. Some of the tools I currently use include:</p>
+        <p>
+            I really like organisation, and everything fits into a neat little box. 
+            To facilitate this, I use a range of online and offline tools. Some of the tools I currently use include:
+        </p>
         <ul>
             <li>Dog Board</li>
             <li>Google Calendar & Google Sheets</li>
@@ -46,12 +48,52 @@
             <li>Trello</li>
             <li>Whiteboard</li>
         </ul>
-        <p>As you can imagine, it’s a lot of manual work to keep the information up to date and based on the 
-            functionality descriptions (of the above tools) alone, there are a lot of redundancies. However, 
-            the one issue that I (and I’m sure many others like me face) is that once the app is closed, or 
-            I’ve turned away from the board; it ceases to function. Object permanence doesn’t exist and it’s 
-            not a concept that my brain seems willing to understand.</p>
-        <h2>Solution</h2>
+        <p>
+            As you can imagine, it’s a lot of manual work to keep the information up to date and there are a lot of redundancies. 
+            However, the biggest issue is <strong>object permanence</strong> or rather, the lack thereof. My solution to this is 
+            to have one mobile application that does the lot, provides you with relevant notifications but also gives you the 
+            option to turn off functionality that isn’t required. 
+        </p>
+        <h2>Market Research</h2>
+        <p>
+            Similar apps definitely exist on the market. However, after doing the research, it seems that a majority
+            of these applications only perform on function. Based on this, I had two main take-aways: <br> The first,
+            many of the foud during my market research were available on both Android and iOS, with only a handful being platform 
+            “exclusives” or web applications (Schedule Once & ADHD Tracker 1.0). This meant that someone who utilised multiple 
+            devices to organise their daily lives didn’t have to download and install multiple applications to track the same 
+            information. <br>But the main issue that resulted from my market research; which ultimately rendered point one 
+            moot; is that an end user who utilised these sorts of tools had to download multiple applications to paint a full 
+            picture.
+        </p>
+        <h2>Tools & Skills</h2>
+        <p>
+            Because this application needs to be cross-platform I’m probably not going to want to use something like Swift 
+            which is used predominantly in iOS application development or Kotlin for Android.
+        </p>
+        <p>Instead, I’m going to stick 
+            with the devil I (sort of) know and build this app in JavaScript. <br>Not only is JavaScript relatively robust, 
+            React Native is great for cross-platform development. The other upside to this, is that it’s almost as old as I 
+            am so, finding a developer with the skills required to create the application will be a piece of cake, and better yet, 
+            finding an IDE that can support the language is even easier. <br>Finally, by using JavaScript, I can then build a 
+            Hybrid App and use one codebase for both operating systems resulting in easier maintenance and updates.
+        </p>
+        <h2>MVP</h2>
+        <h3>Calendar</h3>
+            <p>
+                This feature would track regular events such as birthday and bills, task due dates (pulled from the 
+                o do list). It should have the ability to change the calendar view so that the end user can see hour 
+                by hour (or in x minute increments) what my day looks like; thus, allowing me to implement timetabling.
+            </p>
+        <h3>To-Do List</h3>
+            <p>
+                This feature (like a Kanban board on Trello) will allow an end user to track ad-hoc tasks such as organising an 
+                appointment and regular tasks such as chores. From there, I would like to be able to set due dates that 
+                appear on the calendar and send a push notification to the user's phone
+            </p>
+        <h3>Notifications</h3>
+            <p>
+                Object permanence has been a big factor in this project; so naturally, the ability to have notifications 
+                appear on the lock screen of an end user’s phone is a MUST.
+            </p>
     </body>
-    <footer>Trust me, you don't want to be here - let's go back <a href="index.html">Home</a></footer>
 </html>
