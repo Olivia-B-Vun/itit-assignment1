@@ -1,3 +1,21 @@
+header {
+    font-size: 20px;
+    color: #eaeaea; 
+    background-color: #343434;
+}
+
+body {
+    font-size: 20px;
+    text-align: justify;
+    color: #eaeaea; 
+    background-color: #343434;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+
 .topnav {
     position: relative;
     background-color: #343434;
@@ -11,8 +29,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    ;
-  }
+}
   
 .topnav-home {
     float: left;
@@ -20,57 +37,113 @@
     top: 50%;
     left: 10%;
     transform: translate(-50%, -10%);
-    ;
 }
+
 .topnav-about {
     float: left;
     position: absolute;
     top: 50%;
     left: 22.5%;
     transform: translate(-50%, -22.5%);
-    ;
 }
+
 .topnav-it {
     float: left;
     position: absolute;
     top: 50%;
     left: 35%;
     transform: translate(-50%, -35%);
-    ;
 }
+
 .topnav-project {
     float: right;
     position: absolute;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -90%);
-    ; 
 }
+
 .topnav-profile {
-  float: right;
-  position: absolute;
-  top: 50%;
-  left: 77.5%;
-  transform: translate(-50%, -77.5%);
-  ; 
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 77.5%;
+    transform: translate(-50%, -77.5%);
 }
+
 .topnav-job {
     float: right;
     position: absolute;
     top: 50%;
     left: 65%;
     transform: translate(-50%, -65%);
-    ; 
 }
-    body {
-    font-size: 20px;
-    color: #eaeaea; 
-    background-color: #343434;
-}
+
+/*headings*/
 h1 {
     font-size: 60px;
+    text-align: center;
     color: #d3a5af;
-} 
+}
+
+/*sub headings*/
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #d3a5af;
+}
+
+/*hint: it's me*/
+h6 {
+    text-align: center;
+}
+
+/*pargraph*/
+p {
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*list*/
+ul {
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*link*/
 a {
     color: #e2c9ce
+}
+
+/*images*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    margin-left: 25%;
+    margin-right: -35%;
+    max-width: 40%;
+}
+.column img {
+    margin-top: 50px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.bold-one {
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.responsive {
+    width: 50%;
+    height: auto;
 }
